@@ -1,0 +1,83 @@
+
+#cabecalho {
+    height: 45px;
+    width: 100%;
+    position: relative;
+    background-color: #c4c769;
+    border-bottom: 1px solid #fff;
+}
+#cabecalho #topo{
+    position: absolute;
+    top: 15px;
+}
+#menuNav{
+    background: #9fa41d;
+    color: #272900;
+    padding: 2px 0;
+    margin-bottom: 22px;
+}
+#menuNav ul{
+    margin: 0px 0px 0px 20px;
+    padding: 0px;
+    list-style-type: none;/* retira as bolinhas dos li*/
+    border-left: 1px solid #c4c769;
+}
+#menuNav li{
+    display: inline; /*deixa as linhas na horizontal*/
+    padding: 0px 10px;
+}
+
+#menuNav li a{
+    text-decoration: none;
+    color: #272900;
+}
+
+#menu{ 
+    float: right;
+    width: 175px;
+    border-left: 1px solid #c5c877;
+    padding-left: 15px;
+}
+#conteudo{
+    float: left;
+    width: 550px;
+    margin: 0px 0px 0px 20px;
+    text-align: justify;
+}
+#rodape{
+    clear: both;
+    color: #272900;
+    text-align: right;
+    font-size: 90%;
+    background: #9fa41d;
+    padding: 5px;
+}
+.imagefloat{
+    float: right;
+    width: 200px;
+    border: 1px solid #9fa41d;
+    padding: 2px;
+    margin: 0px 0px 10px 10px ;
+}
+
+a{
+    color: #b52c07;
+}
+h1, h2, h3, h4, h5, h6{
+    margin: 0 0 0.5em;
+}
+h2{
+    font: 140% georgia, times, "times new roman", serif;
+
+}
+h2 a{
+    text-decoration: none;
+}
+h3{
+    color: #7d8206;
+    font: 110% georgia, times, "times new roman", serif;
+}
+
+#conteudo p {
+    line-height: 165%;
+}

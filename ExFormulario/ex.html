@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Alunos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h2>Cadastro de Alunos:</h2>
+    <fieldset style="width: 500px;">
+        <legend>Dados Pessoais:</legend>
+        <form action="confirmacao.html" method="post">
+            <table style="width: 500px;">
+                <tr>
+                    <th>Nome:</th>
+                    <td> <input type="text" name="txtNome" id="nome" size="50"></td>
+                </tr>
+                <tr>
+                    <th>Senha:</th>
+                    <td><input type="password" name="txtSenha" id="senha" size="20"></td>
+                </tr>
+                <tr>
+                    <th>CPF:</th>
+                    <td><input type="text" name="txtCpf" id="CPF" size="20"></td>
+                </tr>
+                <tr>
+                    <th>Idade:</th>
+                    <td><input type="date" name="" id=""></td>
+                </tr>
+                <tr>
+                    <th>Gênero:</th>
+                    <td>
+                        <input type="radio" name="txtGenero" id="Genero" value="M" >Masculino
+                        <input type="radio" name="txtGenero" id="Genero" value="F">Feminino
+                        <input type="radio" name="txtGenero" id="Genero" value="">Outro
+                       
+                    </td>
+                </tr>
+                <tr>
+                    <th>Curriculo:</th>
+                    <td>
+                        <input type="radio" name="txtCurriculo" id="" value="">
+                        <input type="radio" name="txtCurriculo" id="" value="">
+                        <input type="radio" name="txtCurriculo" id="" value="">
+                    </td>       
+                </tr>
+                <tr>
+                    <tr>Campus</tr>
+                    <td>
+                        <select name="txtCampus" id="opCampus">
+                            <option value="João Câmara">João Câmara</option>
+                            <option value="Natal">Natal</option>
+                            <option value="Mossoro">Mossoro</option>
+                            <option value="Ceara-mirim">Ceara-mirim"</option>
+                            
+                            
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2" style="text-align: center;">
+                        <input type="submit" value="Enviar" onclick="enviar()">
+                        <input type="reset" value="Limpar" onclick="limpar()">
+                        
+                    </td>
+                    
+                </tr>
+            </table>
+        </form>    
+    </fieldset>
+</body>
+</html>

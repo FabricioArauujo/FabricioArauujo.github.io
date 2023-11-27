@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplos de css incorparados</title>
+
+    <style>
+        p{
+            font-size: 18px;
+
+            font-family:Arial, sans-serif;
+        }
+        p.negrito{
+            font-size: 15px;
+            font-weight: bold;
+        }
+        p.italico{
+            font-size: 20px;
+         
+            font-style: italic;
+        }
+        p.negrito.italico{
+            font-size: 17px;
+          
+            font-weight: bold;
+            font-style: italic;
+        }
+        p.azul{
+
+            color: blue;
+        }
+        p.vermelho{
+            color: red;
+        
+        }
+        p.apapaguaido{
+            color: white;
+            background-color:green ;
+            text-align: center;
+            font-family:'Arial Narrow', Arial, sans-serif;
+            font-size: 15pt;
+            font-weight: bold;
+        }
+        h1, h2{
+            color: blueviolet ;
+        }
+
+        .planoDeFundoPreto{
+            background-color: black;
+            color: white;
+        }
+        div p{
+            color: white;
+            background-color: orange;
+        }
+        /* seletores para links*/
+        /*links não visitados*/
+        a:link{
+            color: green;
+        }
+        /*Quando passa o mouse em cima do link */
+        a:hover{
+            color: darksalmon;
+        }
+        /*quando clicar no link */
+        a:active{
+            color: red;
+        }
+        /*links visitados*/
+        a:visited{
+            color: blue;
+        }
+    </style>
+</head>
+<body>
+    Texto avulso. 
+
+    <p>Texto dentro de uma tag p.</p>
+
+    <p class="negrito"> Parágrafo com classe negrito. </p>
+
+    <p class="italico"> Parágrafo com classe italico</p>
+    <p class="negrito italico"> Texto com classe negrito italico</p>
+
+    <p class="azul">Texto com letras azuis</p>
+
+    <p class="vermelho">Parágrafo com letra vermelha</p>
+
+    <p class="azul vermelho"> de que cor é este parágrafo</p>
+
+    <p class="apapaguaido">Texto apapaguaido</p>
+
+    <p class="apapaguaido azul">De que cor este parágrafo ficará?  </p>
+
+    <div class="azul"></div>
+
+    <h1>Isso é um h1</h1>
+    <h2>isso é um h2</h2>
+    <h3>isso é um h3</h3>
+
+    <p class="planoDeFundoPreto"> Texto com plano de fundo preto e cor de texto branco</p>
+
+    <div>
+        <p>
+            Parágrafo dentro de uma div
+        </p>
+    </div>
+
+    <a href="exemplo de link">ex</a>
+
+</body>
+</html>

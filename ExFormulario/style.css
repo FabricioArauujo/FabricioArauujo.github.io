@@ -1,0 +1,6 @@
+body{
+    background: rgba(148, 149, 150, 0.568);
+}
+input:hover{
+    background:  rgba(195, 198, 201, 0.568);
+}

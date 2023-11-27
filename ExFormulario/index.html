@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo</title>
+    <style>
+        body{
+            background: rgba(148, 149, 150, 0.568);
+            text-align: center;
+        }
+    </style>
+</head> 
+<body onload="messege2()">
+
+    <div id="res"></div>
+    <script>
+
+        let res = document.getElementById('#res');
+      
+        function messege2(){
+            let nome = prompt('Digite seu nome: ');
+                
+            while(nome == ''){
+            alert('Por favor, informe seu nome!');
+            nome = prompt('Digite seu nome: ');
+            }
+            alert(`Olá, ${nome}!`);
+            return;
+        } 
+        
+    </script>
+</html>
